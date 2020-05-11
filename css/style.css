@@ -1,0 +1,43 @@
+body {
+  background-image: url("https://i.gyazo.com/bd4559b2cc41349b10e3003d260099cc.png");
+  background-position: center;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.BufferBox {
+  display: block;
+  width: 100%;
+  background-color: #003037;
+      margin: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding: 20px;
+      width: 80%;
+      height: 150px;
+}
+
+.SmolBox {
+    background-color: #001F27;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    width: 83.5%;
+    margin-left: auto;
+    margin-right: auto;
+    }
