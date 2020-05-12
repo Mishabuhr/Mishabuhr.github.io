@@ -1,20 +1,44 @@
 body {
-  background-image: url("https://i.gyazo.com/bd4559b2cc41349b10e3003d260099cc.png");
-  background-position: center;
+  background-image: url("https://i.gyazo.com/5b7855381ad71c95c3e6d4782ddcb89d.jpg");
+  background-position: top;
 }
 
 h1 {
-  color: #FFFFFF;
+  color: #F2F2F3;
 }
 
 p {
-  color: #FFFFFF;
+  color: #F2F2F3;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #9E0000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: sticky;
+}
+
+.topnav a:hover {
+  background-color: #7C0000;
+  color: whitesmoke;
+}
+
+.topnav a:visited {
+  color: whitesmoke;
 }
 
 .BufferBox {
   display: block;
   width: 100%;
-  background-color: #003037;
+  background-color: #7C0000;
       margin: 10px;
       display: block;
       margin-left: auto;
@@ -26,12 +50,13 @@ p {
 }
 
 .SmolBox {
-    background-color: #001F27;
+    background-color: #7C0000;
     margin: 10px;
     text-align: center;
     padding: 20px;
     width: 80%;
-
+    color: #9E0000;
+    text-decoration: none;
 }
 
 .flex {
